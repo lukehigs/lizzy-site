@@ -55,12 +55,49 @@
     text-decoration: none;
   }
   .hero {
-    height: 600px; /* Adjust as needed */
     display: flex;
     align-items: center;
     justify-content: center;
     /* Removed background image and gradient */
   }
+
+  .gallery {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-grid {
+    column-count: 3;       /* Creates three columns */
+    column-gap: 20px;      /* Gap between columns */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gallery-item {
+    margin-bottom: 20px;   /* Space between items vertically */
+    break-inside: avoid;   /* Prevents images from being split across columns */
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+
+  .content {
+    max-width: 1200px; /* Same max-width as your gallery */
+    margin: 0 auto;    /* Centers the container horizontally */
+    padding: 0 20px;   /* Optional: adds a little padding for smaller screens */
+  }
+  
+  
+  
   
   
   
