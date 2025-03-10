@@ -61,6 +61,11 @@
     /* Removed background image and gradient */
   }
 
+  .hero-logo {
+    transform: scale(0.8);
+    transform-origin: center; /* Ensures the image scales from its center */
+  }
+
   .gallery {
     padding: 40px 20px;
     text-align: center;
