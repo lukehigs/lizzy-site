@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lizzy's Balloons & Prop Hire</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <div class="hero">
-    <img src="logo.jpg" alt="Lizzy'sBalloons Logo" class="hero-logo" />
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Photo Gallery</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  
+    <div class="hero" id="home">
+
+    <img src="images/logo2.jpg" alt="Lizzy's Balloons Logo" class="hero-logo" width="300" height="200" />
   </div>
 
   <section>
-    
     <h2>Welcome to our website!</h2>
     <div class="content">
-    <p>Lizzy's Balloons & Prop Hire would love to be a part of your special occasion. We provde a wide range of balloons, props and decorations to make your event unforgettable. We can cater for all sizes of events and budgets within the East and West Sussex areas.</p>
-</div>
-    <button class="cta" onclick="alert('Thank you for your interest!')">Book Now</button>
-</section>
+      <p class="para">Lizzy's Balloons & Prop Hire would love to be a part of your special occasion. We provide quality
+        balloons and props in West / East Sussex.</p>
+      <p class="para">Big or small we can cater for all budgets and can supply bespoke balloons for all your needs.
+        Whether it's a baby shower, party or shop display, whatever the occasion, we would love to help you be creative.
+      </p>
+      <p class="para">We will always be upfront about costs and will provide you with a service that is tailored to your
+        budget, ensuring no surprises along the way.</p>
+      <p class="para">While we're delivering a top notch service with a seamless set up, it leaves you to enjoy your
+        occasion without hassle.</p>
+      <p class="para">Please contact us today with any enquiries we would love to hear from you.</p>
+    </div>
+  </section>
 
   <!-- Gallery Section -->
-<section class="gallery">
+  <section class="gallery" id="gallery">
+    <h2>Photo Gallery</h2>
     <div class="gallery-grid">
       <div class="gallery-item">
         <img src="images/image1.jpg" alt="Gallery Image 1" />
@@ -54,9 +78,36 @@
     </div>
   </section>
 
+  <!-- Recommendations Section -->
+<section class="recommendations" id="recommendations">
+  <h2>Recommendations</h2>
+  <div class="recommendation">
+    <p class="testimonial">"I would highly recommend Lizzy. My parents 50th wedding anniversary display was absolutely amazing! Lizzy did all of the decorations (table pieces, balloon arch with lights and sequin wall and balloon easel). She is extremely creative and the whole room looked unbelievable! Outstanding customer service from first contact to final display at the venue."</p>
+    <p class="author">- Zoe Wickens</p>
+  </div>
+  <div class="recommendation">
+    <p class="testimonial">"Lizzy provided us with a beautiful balloon arch for my 60th birthday party. We were very, very impressed by the quality and the care that went into this. I know Lizzy has other products which are equally as amazing. I wouldn't hesitate to recommend her company for any decorations that people may require..."</p>
+    <p class="author">- Andy Johnston</p>
+  </div>
+  <div class="recommendation">
+    <p class="testimonial">"We contacted Lizzy's balloons as we wanted someone to provide us with some balloons for our son's first birthday party. We didn't know quite what we wanted or what we could have. The booking process was extremely simple and Lizzy helped me and my husband turn our sons first birthday party into the 'wild one' party we could only of imagined! She helped us build our theme and suggested ideas to help bring the theme all together. Absolutely will contact Lizzy again and would happily recommend her. Extremely talended lady."</p>
+    <p class="author">- Hanna Jarvis</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:info@lizzysballoons.co.uk">info@lizzysballoons.co.uk</a></p>
+  <p>Phone: <a href="tel:01234567890">01234 567890</a></p>
+</section>
+
+
   <footer>
-    <p>&copy; 2025 Lizzy's Balloons and Prop Hire | <a href="mailto:info@lizzysballoons.co.uk">info@lizzysballoons.co.uk</a></p>
+    <p>&copy; 2025 Lizzy's Balloons and Prop Hire | <a
+        href="mailto:info@lizzysballoons.co.uk">info@lizzysballoons.co.uk</a></p>
   </footer>
 
 </body>
+
 </html>
