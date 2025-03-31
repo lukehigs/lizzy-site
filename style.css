@@ -100,6 +100,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
 
+  /* Mobile devices (below 768px wide) */
+@media (max-width: 767px) {
+  .gallery-grid {
+    column-count: 1;        /* Single column on mobile */
+  }
+}
+
   .content {
     max-width: 1200px; /* Same max-width as your gallery */
     margin: 0 auto;    /* Centers the container horizontally */
@@ -181,6 +188,7 @@ header {
   background-color: #fff;
   padding: 40px 20px;
   text-align: center;
+  background-color: rgba(217, 85, 164, 0.5);
 }
 
 .contact h2 {
@@ -221,5 +229,26 @@ header {
   color: #fff;
 }
   
+.contact-links {
+  display: flex;
+  gap: 20px; /* space between items */
+  align-items: center; /* vertically align icons/text */
+  justify-content: center; /* horizontally center the links */
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: inherit; /* keeps the original color */
+}
+
+.contact-links i {
+  margin-right: 5px; /* spacing between icon and text */
+}
   
-  
+  /* Mobile devices - stack vertically */
+@media (max-width: 767px) {
+  .contact-links {
+    flex-direction: column;
+    gap: 15px; /* Adjust gap if needed for vertical spacing */
+  }
+}
